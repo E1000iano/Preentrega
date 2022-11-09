@@ -1,0 +1,79 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.headerFondo {
+    background-color: rgb(22, 22, 22)
+}
+
+
+
+.box {
+    margin-top: 120px;
+    margin-left: 10%;
+    width: 80%;
+}
+
+.boxP {
+    margin-top: 120px;
+    transform: translate(-50%, -50%);
+
+}
+
+.boxS {
+    margin-top: 120px;
+}
+
+
+.secondP {
+    margin-top: 50px;
+}
+
+.instagram {
+    height: 28px;
+    width: 28px;
+
+}
+
+.linkedin {
+    height: 28px;
+    width: 28px;
+}
+
+.links {
+    margin-left: 20px;
+}
+
+.mcr {
+    height: 400px;
+    object-fit: contain;
+}
+
+.foto {
+    width: 600px;
+    height: 600px;
+    margin-bottom: 50px;
+}
+
+.futer {
+    display: block;
+}
+
+.video {
+    height: 768px;
+    width: 1268px;
+}
+
+.hobbies {
+    height: 500px;
+    width: 700px;
+}
+
+.boxCon {
+    display: flex;
+    justify-content: center;
+
+}
