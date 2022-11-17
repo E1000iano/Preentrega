@@ -1,0 +1,24 @@
+.parrafos {
+    color: $color-fuente;
+}
+
+.parrafoCenter {
+    text-align: center;
+    @extend .parrafos
+}
+
+.boxS {
+    margin-top: 120px;
+}
+
+.box {
+    margin-left: 10%;
+    width: 80%;
+    @extend .boxS
+}
+
+.boxP {
+    transform: translate(-50%, -50%);
+    @extend .boxS
+}
+

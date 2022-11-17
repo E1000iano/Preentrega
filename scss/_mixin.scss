@@ -1,0 +1,30 @@
+@mixin listHorizontal {
+
+    li {
+        display: block;
+        list-style: none;
+        text-align: center;
+        margin: auto;
+        list-style: none;
+        text-decoration: none;
+        margin: 10px;
+
+    }
+
+    li :hover{
+        color: black;
+    }
+
+    a:link, a:visited, a:active {
+        text-decoration:none;
+    }
+}
+
+nav ul {
+    @include listHorizontal;
+}
+
+
+li {
+    @include listHorizontal;
+}
